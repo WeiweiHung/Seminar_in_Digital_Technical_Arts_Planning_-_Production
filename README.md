@@ -1,2 +1,2 @@
-# Seminar_in_Digital_Technical_Arts_Planning_-_Production
-Seminar in Digital Technical Arts Planning &amp; Production
+# 113-1數位科技藝術專題企劃與製作（一）
+授課教授：薛佑廷
