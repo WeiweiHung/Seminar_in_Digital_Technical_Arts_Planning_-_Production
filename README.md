@@ -12,7 +12,7 @@
     + week3-SkyBox
         + [CubeMap](https://docs.unity3d.com/Manual/class-Cubemap.html)
         + Panoramic
-              + [Luma AI](https://lumalabs.ai/dream-machine)
+            + [Luma AI](https://lumalabs.ai/dream-machine)
 + 課堂資料  
     + [moodle](https://moodle3.ntnu.edu.tw/course/view.php?id=45610)
 + 參考資料
