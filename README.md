@@ -9,7 +9,7 @@
 
 # :closed_book:課堂筆記
 + 課堂筆記
-    + week3
+    + week3-SkyBox
         + [CubeMap](https://docs.unity3d.com/Manual/class-Cubemap.html)
 + 課堂資料  
     + [moodle](https://moodle3.ntnu.edu.tw/course/view.php?id=45610)
