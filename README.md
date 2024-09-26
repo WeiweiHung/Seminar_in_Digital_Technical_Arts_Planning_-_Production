@@ -7,7 +7,7 @@
 + 作業
 + 課堂練習
     + [week3-SkyBox](https://github.com/WeiweiHung/Seminar_in_Digital_Technical_Arts_Planning_-_Production/tree/main/0912class/Assets/Materials/SkyBox0919)
-    + [week4](https://github.com/WeiweiHung/Seminar_in_Digital_Technical_Arts_Planning_-_Production/tree/main/0912class/Assets/class/0926)
+    + [week4](https://github.com/WeiweiHung/Seminar_in_Digital_Technical_Arts_Planning_-_Production/tree/main/0912class/Assets/scripts/0926)
 
 # :closed_book:課堂筆記
 + 課堂筆記
