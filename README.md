@@ -21,6 +21,8 @@
     + week4
         + [Skybox Rotator with Fading Effect from YTH](https://github.com/hsuehyt/SkyboxRotator)
         + [Camera Controller from YTH](https://github.com/hsuehyt/CameraController)
+    + week7
+        + [光影走廊原始UNITY檔案](https://github.com/hsuehyt/StageOfLight)
 + 參考資料
    
 + 補充資料
