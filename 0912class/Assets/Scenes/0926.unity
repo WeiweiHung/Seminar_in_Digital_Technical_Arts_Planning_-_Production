@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28697038, g: 0.17091726, b: 0.15876718, a: 1}
+  m_IndirectSpecularColor: {r: 0.08975326, g: 0.3663169, b: 0.38596526, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -427,7 +427,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skyboxTextures:
-  - {fileID: 2800000, guid: 290c65eecfcd9314a94d511cba88db50, type: 3}
+  - {fileID: 2800000, guid: 87974ae5163fcd646aae60a9af927800, type: 3}
+  - {fileID: 2800000, guid: 8b83c783c0108d143928624a7f97a98d, type: 3}
+  - {fileID: 2800000, guid: 9a236475e328a5b41bfb121203758573, type: 3}
   switchInterval: 5
   fadeDuration: 1
 --- !u!4 &803564675
