@@ -15,6 +15,7 @@
         + [CubeMap](https://docs.unity3d.com/Manual/class-Cubemap.html)
         + [Panoramic](https://docs.unity3d.com/Manual/VideoPanoramic.html)
             + [Luma AI](https://lumalabs.ai/dream-machine)
+    + week7-[Video player]()
     
 + 課堂資料  
     + [moodle](https://moodle3.ntnu.edu.tw/course/view.php?id=45610)
