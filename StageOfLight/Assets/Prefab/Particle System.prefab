@@ -2841,7 +2841,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 0.5
+    frequency: 5
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -3612,7 +3612,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 4
     type: 0
     collisionMode: 0
@@ -4749,16 +4749,16 @@ ParticleSystemRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8442141613399940537}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 2
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 0
+  m_LightProbeUsage: 2
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 52daf3b3aab0e034c97e6f92d940d1f8, type: 2}
@@ -4796,13 +4796,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 3
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
+  m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 0
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_VertexStreams: 00010304
+  m_VertexStreams: 00030409
   m_Mesh: {fileID: -7505805459533391120, guid: c604c75c2dcb5c54bb56c125f949db85, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}

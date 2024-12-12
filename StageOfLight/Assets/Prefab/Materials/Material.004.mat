@@ -21,10 +21,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Material.004
-  m_Shader: {fileID: 4800000, guid: 0f4122b9a743b744abe2fb6a0a88868b, type: 3}
+  m_Shader: {fileID: 10761, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _EMISSION
+  - _GLOSSYREFLECTIONS_OFF
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -161,6 +162,7 @@ Material:
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
+    - _Strength: 0.2
     - _Surface: 0
     - _UVSec: 0
     - _UseUIAlphaClip: 0
@@ -170,7 +172,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.28156546, g: 0.16165113, b: 0.030764319, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.28156543, g: 0.1616511, b: 0.030764319, a: 1}
+    - _Color: {r: 0.6886792, g: 0.51478726, b: 0.25598073, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}

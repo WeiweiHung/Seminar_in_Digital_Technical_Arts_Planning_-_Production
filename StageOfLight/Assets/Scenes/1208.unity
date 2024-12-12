@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 3.56
+  m_AmbientIntensity: 3.06
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 1, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: ab8bdf6eedc7efd478c15280db45a1ce, type: 2}
+  m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 01c5a7eb03b95ac4c8df6f264b5c5a9c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1878587934}
-  m_IndirectSpecularColor: {r: 0.99121004, g: 0.99121004, b: 0.99121004, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -279,38 +279,88 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
-      propertyPath: NoiseModule.enabled
+      propertyPath: randomSeed
+      value: 5221
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: autoRandomSeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: ShapeModule.type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: InitialModule.size3D
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
       propertyPath: NoiseModule.frequency
-      value: 5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
       propertyPath: ShapeModule.m_Scale.x
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
       propertyPath: ShapeModule.m_Scale.y
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
       propertyPath: ShapeModule.m_Scale.z
-      value: 15
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
       propertyPath: CollisionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: RotationModule.x.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: InitialModule.rotation3D
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
       propertyPath: ShapeModule.m_Position.y
-      value: -5.22
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: ShapeModule.m_Rotation.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: RotationModule.curve.scalar
+      value: 0.7853982
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: RotationModule.separateAxes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
@@ -319,13 +369,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
+      propertyPath: RotationBySpeedModule.x.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: RotationBySpeedModule.y.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 2.4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 1000
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: InitialModule.startRotation.scalar
+      value: 3.1415925
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: RotationBySpeedModule.curve.scalar
+      value: 0.7853982
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: RotationBySpeedModule.separateAxes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940540, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 4.712389
       objectReference: {fileID: 0}
     - target: {fileID: 8442141613399940542, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
         type: 3}
@@ -381,6 +466,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -7505805459533391120, guid: c604c75c2dcb5c54bb56c125f949db85,
+        type: 3}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_RenderAlignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_ApplyActiveColorSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_UseCustomVertexStreams
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442141613399940543, guid: a7dddd9d1d946f24facb0bfb903d3dd4,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[3]
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7dddd9d1d946f24facb0bfb903d3dd4, type: 3}
@@ -1261,7 +1387,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -1293,7 +1419,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1302,13 +1428,13 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
